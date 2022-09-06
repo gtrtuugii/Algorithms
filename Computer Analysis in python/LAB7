@@ -1,0 +1,31 @@
+""" A program to tell someone what sign of the Zodiac they were
+    born under.
+    Angus McGurkinshaw, 25 August 2015.
+"""
+
+# Signs of the Zodiac and the ranges of dates over which they apply.
+# Each range has 4 elements: day_start, month_start, day_end, month_end.
+# Capricorn is split into two ranges, as it spans two years.
+zodiac_signs = [
+    ('Capricorn', 0, 1, 19, 1),
+    ('Aquarius', 20, 1, 18, 2),
+    ('Pisces', 19, 2, 20, 3),
+    ('Aries', 21, 3, 19, 4),
+    ('Taurus', 20, 4, 20, 5),
+    ('Gemini', 21, 5, 20, 6),
+    ('Cancer', 21, 6, 22, 7),
+    ('Leo', 23, 7, 22, 8),
+    ('Virgo', 23, 8, 22, 9),
+    ('Libra', 23, 9, 22, 10),
+    ('Scorpio', 23, 10, 21, 11),
+    ('Sagittarius', 22, 11, 21, 12),
+    ('Capricorn', 22, 12, 31, 12)]
+
+name = input("What is your name? ")
+dob = input("Enter your birthday in the form DD/MM e.g. 3/11: ")
+day_string, month_string = dob.split('/')
+day = int(day_string)
+month = int(month_string)
+for sign, day0, month0, day1, month1 in zodiac_signs:
+    if (month0, day0) <= (month, day) <= (month1, day1):
+        print("Hi {}, your Zodiac sign is {}.".format(name, sign))
