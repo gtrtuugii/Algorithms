@@ -1,0 +1,31 @@
+Info,  T0: Load res/models-textures/model0.x
+Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
+Info,  T0: Import root directory is 'res/models-textures/'
+Info,  T0: Entering post processing pipeline
+Info,  T0: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T0: FindInvalidDataProcess finished. Found issues ...
+Info,  T0: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T0: JoinVerticesProcess finished | Verts in: 324 out: 100 | ~69.1358
+Info,  T0: Cache relevant are 1 meshes (162 faces). Average output ACMR is 0.790123
+Info,  T0: Leaving post processing pipeline
+Info,  T0: Load res/models-textures/model55.x
+Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
+Info,  T0: Import root directory is 'res/models-textures/'
+Info,  T0: Entering post processing pipeline
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T0: FindInvalidDataProcess finished. Found issues ...
+Info,  T0: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T0: JoinVerticesProcess finished | Verts in: 240 out: 76 | ~68.3333
+Info,  T0: Cache relevant are 1 meshes (80 faces). Average output ACMR is 0.95
+Info,  T0: Leaving post processing pipeline
+Info,  T0: Load res/models-textures/model4.x
+Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
+Info,  T0: Import root directory is 'res/models-textures/'
+Info,  T0: Entering post processing pipeline
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T0: FindInvalidDataProcess finished. Found issues ...
+Info,  T0: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T0: JoinVerticesProcess finished | Verts in: 17100 out: 6181 | ~63.8538
+Info,  T0: Cache relevant are 1 meshes (5700 faces). Average output ACMR is 1.17632
+Info,  T0: Leaving post processing pipeline

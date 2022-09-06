@@ -1,0 +1,1 @@
+This project was build using Mac OS Catalina 10.15.6
