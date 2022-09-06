@@ -1,2 +1,1 @@
-# Algorithms
-Created during my time at Uni
+This project was build using Mac OS Catalina 10.15.6
